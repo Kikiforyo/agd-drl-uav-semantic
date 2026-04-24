@@ -1,0 +1,6 @@
+# 语义模块预训练配置
+freeze_semantic: false
+dataset_path: data/semantic_dataset.txt  # 语料路径
+batch_size: 32
+learning_rate: 1e-4
+num_epochs: 10

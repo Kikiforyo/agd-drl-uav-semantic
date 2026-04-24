@@ -1,0 +1,8 @@
+# TD3 训练配置
+algorithm: td3
+freeze_semantic: true
+env_config: configs/env_base.yaml
+learning_rate: 1e-3
+episodes: 20
+gamma: 0.99
+seed: 42

@@ -1,0 +1,12 @@
+# 基础环境配置
+# 所有训练和评估脚本都应从该文件加载通用环境参数。
+
+episode_length: 200              # 每个 episode 的最大步数
+uav_init_pos: [0.0, 0.0, 100.0]  # UAV 初始位置 (x, y, z)
+willie_init_pos: [500.0, 0.0]    # Willie 初始位置 (x, y)
+alice_pos: [0.0, 0.0]             # Alice 位置
+uav_max_speed: 10.0              # UAV 最大速度
+willie_speed: 1.0               # Willie 移动速度
+num_antennas: 4                  # UAV 天线数
+freeze_semantic: true            # 是否冻结语义模块（基础验证阶段）
+jam_power_fixed: 0.0             # 如果未实现闭式功率反推，可以暂定固定干扰功率
