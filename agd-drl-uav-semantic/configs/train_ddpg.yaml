@@ -1,0 +1,17 @@
+# DDPG 训练配置
+algorithm: ddpg
+freeze_semantic: true
+env_config: configs/env_base.yaml
+# DDPG 超参数
+episodes: 100
+gamma: 0.99
+batch_size: 64
+tau: 0.005
+actor_lr: 1e-4
+critic_lr: 1e-3
+replay_size: 100000
+start_steps: 1000
+noise_std: 0.1
+noise_start: 0.1
+noise_end: 0.01
+seed: 42

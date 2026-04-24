@@ -1,0 +1,8 @@
+# DRL-JPPO 参考基线训练配置
+algorithm: drl_jppo_ref
+freeze_semantic: true
+env_config: configs/env_base.yaml
+learning_rate: 1e-3
+episodes: 1000
+gamma: 0.99
+seed: 42
